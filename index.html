@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/scrollreveal.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Topo-->
+  <section class="container-fluid topo bg-white">
+    <article class="container d-flex flex-row align-items-center justify-content-end">
+      <div class="text-blue ms-5">
+        Atendimento:
+        <a class="text-blue" href="tel:+555332381723">(53) 3238-1723</a>
+        <a class="text-blue" href="tel:+5553999664114">(53) 99966-4114</a>
+      </div>
+
+      <div class="text-blue ms-5">
+        Horário: Segunda a Sexta-feira das 08h30 às 18h30
+      </div>
+
+      <div class="ms-3">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="#1947a3" class="bi bi-facebook m-2"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="#1947a3" class="bi bi-instagram m-2"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="#1947a3" class="bi bi-whatsapp m-2"
+            viewBox="0 0 16 16">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+          </svg>
+        </a>
+      </div>
+    </article>
+  </section>
+  <!--Header-->
+  <header id="header" class="bg-blue">
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="container">
+        <!--Logo-->
+        <a class="logo bg-white navbar-brand p-2" href="#">
+          <img src="./assets/images/logo.png" alt="jf-logo">
+        </a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Collapse-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--Nav-->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-lighter">
+            <li class="nav-item">
+              <a class="nav-link hover-1 text-white" aria-current="page" href="#">HOME</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link hover-1 text-white" href="#">SOBRE</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link hover-1 text-white" href="#">SERVIÇOS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link hover-1 text-white" href="#">ORÇAMENTOS</a>
+            </li>
+            <!--DropDown Downloads-->
+            <li class="nav-item dropdown">
+              <span id="downloads" class="nav-link hover-1" aria-expanded="false">
+                DOWNLOADS
+              </span>
+              <ul id="ulDownloads" class="dropdown-menu p-0 rounded-0 rounded-bottom border-0 mt-0 me-5">
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 fw-bold" href="#">Sistema</a>
+                  <ul class="dropdown-submenu-style p-0 border-0 rounded-0 mt-2 dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/Componentes.v4.00.exe">Componentes (v4.00 /
+                        v5.00/ v6.00)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="https://www.jfsystem.com.br/downloads/Sistema.v4.00.exe">Executável
+                        do sistema
+                        (v4.00)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="https://www.jfsystem.com.br/downloads/Sistema.v5.00.exe">Executável
+                        do sistema
+                        (v5.00)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="https://www.jfsystem.com.br/downloads/Sistema.v6.00.exe">Executável
+                        do sistema
+                        (v6.00)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/Manutencao.exe">Manutenção</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="https://www.jfsystem.com.br/downloads/Schemas.exe">Schemas</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--End Dropdown Downloads-->
+                <!--Dropdown Submenu Acesso remoto-->
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 fw-bold" href="#">Acesso Remoto</a>
+                  <ul class="dropdown-submenu-style p-0 border-0 rounded-0 mt-2 dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item" href="https://www.jfsystem.com.br/downloads/suporte/ARemoto.exe">Acesso
+                        Remoto</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="https://get.teamviewer.com/jfsystem" target="blank">Acesso
+                        Remoto
+                        Exclusivo</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--Dropdown Submenu Impressoras-->
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 fw-bold" href="#">Impressoras</a>
+                  <ul class="dropdown-submenu-style p-0 border-0 rounded-0 mt-2 dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/BemaSetup_MP4K_x32_v4_1_0.exe">Bematech
+                        MP4200 v4.1.0.0 (32bits)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/BemaSetup_MP4K_x64_v4_2_0.exe">Bematech
+                        MP4200 v4.1.0.0 (64bits)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/BemaSetup_MP4K_x32_v5_0_0_1.exe">Bematech
+                        MP4200 v5.0.0.1 (32bits)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/BemaSetup_MP4K_x64_v5_0_0_1.exe">Bematech
+                        MP4200 v5.0.0.1 (64bits)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/Elgin_I9.exe">Elgin I9</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/Epson_T20.exe">Epson T20</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/Epson_T81.exe">Epson T81</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--Dropdown Submenu Etiquetadoras-->
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 fw-bold" href="#">Etiquetadoras</a>
+                  <ul class="dropdown-submenu-style p-0 border-0 rounded-0 mt-2 dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/Argox_7.4.1_M-0.exe">Argox 214
+                        Plus</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/Elgin_L42.zip">Elgin L42</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/impressoras/Zebra_GC420t.exe">Zebra GC420T</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--Dropdown Submenu Balanças-->
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 rounded-bottom fw-bold" href="#">Balanças</a>
+                  <ul class="dropdown-submenu-style p-0 border-0 rounded-0 mt-2 dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/balancas/Smart_full_209.exe">Filizola (Smart
+                        2.0.9)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="https://www.jfsystem.com.br/downloads/balancas/MGV6.exe">Toledo
+                        (MGV6)</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item"
+                        href="https://www.jfsystem.com.br/downloads/balancas/Urano_Integra_2.4i.exe">Urano (Urano
+                        integra2.4i)</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--DropDown Area Restrita-->
+            <li class="nav-item dropdown">
+              <span id="restrita" class="nav-link hover-1" aria-expanded="false">
+                ÁREA RESTRITA
+              </span>
+              <ul id="ulRestrita" class="dropdown-menu p-0 rounded-0 rounded-bottom border-0 mt-0 me-5">
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 fw-bold" href="http://jfsystem.net:5024/index.php/login"
+                    target="blank">Clientes</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 fw-bold" href="http://jfsystem.net:5024/index.php/login"
+                    target="blank">Suporte</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item pt-2 pb-2 rounded-bottom fw-bold" href="http://webmail.jfsystem.com.br/"
+                    target="blank">Webmail</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-1 text-white" href="#">CONTATO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Main-->
+  <main>
+    <!--Carrosel-->
+    <div id="carouselCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/banner1.png" class="d-block w-100" alt="banner-1">
+          <div class="carousel-caption captionReveal d-none d-md-block">
+            <h5 class="text-white">First slide label</h5>
+            <p class="text-white">Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/banner2.png" class="d-block w-100" alt="banner-2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-white">Second slide label</h5>
+            <p class="text-white">Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/banner3.png" class="d-block w-100" alt="banner-3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-white">Third slide label</h5>
+            <p class="text-white">Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- Cards inicial--->
+    <section class="container-fluid section-cards-inicial">
+      <article class="container">
+        <div class="row justify-content-center">
+          <div class="card card-style col-md-3 m-4 shadow" style="width: 15rem; height: 19rem;">
+            <div class="card-body m-4 text-center">
+              <figure><img src="./assets/images/icon-nota.png" alt="..."></figure>
+              <h5 class="card-subtitle mb-2">Docs. Fiscais</h5>
+              <p class="card-text">Com JF System você tem acesso a emissão de todos documentos fiscais.</p>
+            </div>
+          </div>
+
+          <div class="card card-style col-md-3 m-4 shadow" style="width: 15rem; height: 19rem;">
+            <div class="card-body m-4 text-center">
+              <figure><img src="./assets/images/icon-negócios.png" alt="..."></figure>
+              <h5 class="card-subtitle mb-2">Gestão Financeira</h5>
+              <p class="card-text">Sua empresa sempre em dia com o controle financeiro JF System</p>
+            </div>
+          </div>
+
+          <div class="card card-style col-md-3 m-4 shadow" style="width: 15rem; height: 19rem;">
+            <div class="card-body m-4 text-center">
+              <figure><img src="./assets/images/icons-suporte-tec.png" alt="..."></figure>
+              <h5 class="card-subtitle mb-2">Suporte Técnico</h5>
+              <p class="card-text">Tenha um suporte técnico qualificado e sempre a sua disposição.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!---Sobre--->
+    <section class="container-fluid bg-white section-sobre">
+      <article class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4">
+            <div class="div-img-equipe bg-blue">
+              <img class="img-fluid img-equipe" src="./assets/images/jf-sytem-1518-6-1-988.jpg" alt="equipe-jf">
+            </div>
+          </div>
+          <div class="div-texto-sobre col-md-6 ms-3 mt-5">
+            <h3 class="fs-6 text-blue fw-light">Sobre a JF System</h3>
+            <h2 class="fs-1">SoftHouse com tradição</h2>
+            <p class="fw-light">
+              A J.F. System SoftHouse é uma empresa especializada em análise e desenvolvimento de software.
+              Desenvolvemos
+              softwares e soluções para vários segmentos do mercado.
+            </p>
+            <div class="row">
+              <div class="col-md-4 align-items-center">
+                <img class="m-3" src="./assets/images/verified-badge.png" alt="badge1" style="width: 50px;">
+                <div class="flex-column">
+                  <h4 class="m-0">18</h4>
+                  <p class="m-0">Anos de Experiencia</p>
+                </div>
+              </div>
+
+              <div class="col-md-4 align-items-center">
+                <img class="m-3" src="./assets/images/empresa-cliente.png" alt="badge2" style="width: 50px;">
+                <div class="flex-column">
+                  <h4 class="m-0">500</h4>
+                  <p class="m-0">Clientes atendidos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!--Vantagens-->
+    <section class="container-fluid bg-gray">
+      <div class="rect-blue">
+        <h2 class="m-4 text-white fw-lighter">Reduza suas despesas e aumente sua lucratividade com nosso sistema.
+        </h2>
+      </div>
+      <!---Cards Vantagens--->
+      <div class="container">
+        <div class="row div-cards-vantagens pb-5 justify-content-end align-items-center text-end">
+          <div class="card cards-vantagens col-md-4" style="width: 18rem;">
+            <div class="card-body card-text-reveal">
+              <h5 class="card-title">FOCO NO CLIENTE</h5>
+              <p class="card-text">Não entregamos apenas um software, mas sim ensinamos e treinamos nossos clientes.</p>
+            </div>
+          </div>
+
+          <div class="card cards-vantagens col-md-4" style="width: 18rem;">
+            <div class="card-body card-text-reveal">
+              <h5 class="card-title">QUALIDADE E EXCELÊNCIA</h5>
+              <p class="card-text">Prezamos a excelência em nossos softwares e por isso garantido qualidade total.</p>
+            </div>
+          </div>
+
+          <div class="card cards-vantagens col-md-4" style="width: 18rem;">
+            <div class="card-body card-text-reveal">
+              <h5 class="card-title">TECNOLOGIA</h5>
+              <p class="card-text">Nossos sistemas são adaptáveis, além do uso em desktop, são feitos para uso em
+                tablets e celulares.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Soluções e Produtos--->
+    <div class="container-fluid div-img-solucoes"></div>
+    <div class="row container-fluid justify-content-end">
+      <div class="rect-solucoes text-blue">
+        <h6>CONHEÇA NOSSOS SISTEMAS</h6>
+        <h2>Oferecemos a solução perfeita</h2>
+      </div>
+    </div>
+    <!--Cards soluções-->
+    <section class="container-fluid">
+      <article class="container">
+        <div class="row div-card-solucoes1 justify-content-start">
+          <div class="card cards-solucoes col-md-3" style="width: 15rem; height: 15rem">
+            <div class="card-body m-4 text-center">
+              <img src="./assets/images/icon-ordem-móvel.png" alt="...">
+              <h5 class="card-title">Aplicativos Móveis</h5>
+            </div>
+            <div class="overlay p-4 d-flex flex-column justify-content-center">
+              <p class="text-white">
+                Faça pedidos online e offline onde e quando você quiser.
+              </p>
+            </div>
+          </div>
+
+          <div class="card cards-solucoes col-md-3" style="width: 15rem; height: 15rem">
+            <div class="card-body m-4 text-center">
+              <img src="./assets/images/icon-vender-estoque.png" alt="...">
+              <h5 class="card-title">Controle de Estoque</h5>
+            </div>
+            <div class="overlay p-4 d-flex flex-column justify-content-center">
+              <p class="text-white">
+                Gerenciamento do estoque do seu negócio de modo impecável.
+              </p>
+            </div>
+          </div>
+
+          <div class="card cards-solucoes col-md-3" style="width: 15rem; height: 15rem">
+            <div class="card-body m-4 text-center">
+              <img src="./assets/images/icon-laptop.png" alt="...">
+              <h5 class="card-title">CRM</h5>
+            </div>
+            <div class="overlay p-4 d-flex flex-column justify-content-center">
+              <p class="text-white">
+                Com o CRM você conhece mais sobre os seus clientes e aumenta as vendas, criando ofertas e promoções para
+                o público certo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row div-card-solucoes2 justify-content-start">
+          <div class="card cards-solucoes col-md-3" style="width: 15rem; height: 15rem">
+            <div class="card-body m-4 text-center">
+              <img src="./assets/images/icon-papel.png" alt="...">
+              <h5 class="card-title">Emissão CT-e / MDF-e / NF-e / NFC-e</h5>
+            </div>
+            <div class="overlay p-4 d-flex flex-column justify-content-center">
+              <p class="text-white">
+                Emita CTe, MDFe, NFe e NFCe de forma rápida e prática de fácil usabilidade.
+              </p>
+            </div>
+          </div>
+
+          <div class="card cards-solucoes col-md-3" style="width: 15rem; height: 15rem">
+            <div class="card-body m-4 text-center">
+              <img src="./assets/images/icon-dinheiro.png" alt="...">
+              <h5 class="card-title">Gestão Financeira</h5>
+            </div>
+            <div class="overlay p-4 d-flex flex-column justify-content-center">
+              <p class="text-white">
+                Gerenciamento do financeiro da sua empresa de modo impecável.
+              </p>
+            </div>
+          </div>
+
+          <div class="card cards-solucoes col-md-3" style="width: 15rem; height: 15rem">
+            <div class="card-body m-4 text-center">
+              <h5 class="card-title">Conheça outras soluções que temos para sua empresa.</h5>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!---Modulos--->
+    <section class="container-fluid section-func">
+      <article class="container">
+        <div class="row div-func justify-content-center">
+          <h2 class="text-func text-center mb-5">Nossas principais funcionabilidades</h2>
+
+          <div id="card-func1" class="card col-md-3 m-3" style="width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center mb-3">Estoque</h5>
+              <ul>
+                <li>Cadastro Completo</li>
+                <li>Importação de NF-e por XML</li>
+                <li>Inventário Mensal</li>
+                <li>Controle de Estoque</li>
+                <li>Pedidos e Reservas</li>
+                <li>Relatórios Completos e com Gráficos</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="card-func2" class="card col-md-3 m-3" style="width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center mb-3">Financeiro</h5>
+              <ul>
+                <li>Gestão Financeira</li>
+                <li>Emissão de Boletos</li>
+                <li>Controle de cartões e cheques</li>
+                <li>Controle de comissões</li>
+                <li>Controle de Inadimplência</li>
+                <li>Limite de Créditos</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="card-func3" class="card col-md-3 m-3" style="width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center mb-3">Fiscal</h5>
+              <ul>
+                <li>NF-e e NFC-e</li>
+                <li>SPEDs</li>
+                <li>CT-e</li>
+                <li>MDF-e</li>
+                <li>Receituário Agrônomo</li>
+                <li>TEF</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <!--javascript-->
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

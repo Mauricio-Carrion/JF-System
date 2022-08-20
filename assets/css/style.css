@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;300;400;700&display=swap');
+
+* {
+  font-family: 'Sarabun', sans-serif;
+  text-decoration: none !important;
+  color: #303030;
+  list-style: none;
+}
+
+/****Cores****/
+
+.bg-blue {
+  background: #1947a3;
+}
+
+.bg-gray {
+  background: #E1E5E8;
+}
+
+.text-blue {
+  color: #1947a3;
+}
+
+/****Topo***/
+.topo {
+  z-index: 999;
+  box-shadow: 0px 11px 31px 5px rgba(0, 0, 0, 0.23);
+}
+
+/***Header***/
+.header {
+  box-shadow: 0px 12px 10px 7px rgba(0, 0, 0, 0.33);
+}
+
+/***Logo***/
+.logo {
+  z-index: 1;
+  margin-top: -3px;
+  box-shadow: 0px 23px 21px 3px rgba(0, 0, 0, 0.35);
+}
+
+/***Efeito botoes***/
+.hover-1 {
+  background-image: linear-gradient(white, white);
+  background-size: 100% 0;
+  background-repeat: no-repeat;
+  padding: 35px 15px 35px 15px !important;
+  transition: .4s;
+}
+
+.hover-1:hover {
+  background-size: 100% 100%;
+  color: #1947a3 !important;
+  text-shadow: 0 0 1px #1947a3;
+}
+
+/***IDs Dropdowns***/
+#downloads {
+  color: #ffff;
+}
+
+#restrita {
+  color: #ffff;
+}
+
+/***dropdown***/
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  z-index: 999;
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu li:hover .dropdown-submenu {
+  display: block;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu-style {
+  background-color: #1947a3;
+  --bs-dropdown-link-hover-color: #1947a3;
+  --bs-dropdown-link-hover-bg: #ffff;
+  --bs-dropdown-link-color: #ffff;
+}
+
+/***Carrosel***/
+.carrosel {
+  z-index: 0;
+  margin-top: -5px;
+}
+
+.carousel-caption {
+  right: 40%;
+  bottom: 42%;
+  text-align: start;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  max-width: 400px;
+  padding: 40px;
+}
+
+.carousel-indicators {
+  transform: rotate(90deg);
+  right: 70%;
+  bottom: 50%;
+  left: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 80px;
+  height: 3px;
+}
+
+/***Cards Inicial***/
+
+.section-cards-inicial {
+  position: relative;
+  bottom: 7rem;
+}
+
+.card-style {
+  z-index: 1;
+  border-style: solid;
+  border-width: 0 0 5px 0;
+  border-color: #1947a3;
+}
+
+/***Sobre***/
+
+.div-img-equipe {
+  border-radius: 20px 0 20px 0;
+  padding: 2px 0 0 2px;
+  box-shadow: -5px -5px 14px -4px rgba(0, 0, 0, 0.4);
+}
+
+.img-equipe {
+  border-radius: 20px 0 20px 0;
+  margin: 20px 0 -20px 20px;
+  box-shadow: -5px -5px 14px -4px rgba(0, 0, 0, 0.4);
+}
+
+.section-sobre {
+  position: relative;
+  bottom: 7rem;
+  margin: 40px 0 0px 0;
+}
+
+/********Vantagens********/
+/********Rectangles*******/
+
+.rect-blue {
+  z-index: 999;
+  padding: 40px;
+  position: relative;
+  left: -13px;
+  bottom: 100px;
+  height: 240px;
+  width: 600px;
+  background-color: #1947a3;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.62);
+}
+
+.div-cards-vantagens {
+  margin: -90px 0 0 0;
+}
+
+.cards-vantagens {
+  border-width: 0 1px 0 0;
+  border-radius: 0;
+  border-color: #1947a3;
+  background-color: transparent;
+}
+
+/*****Soluções*****/
+
+.div-img-solucoes {
+  display: block;
+  background-image: url('../images/background-solucoes.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.div-card-solucoes1 {
+  position: relative;
+  bottom: 300px;
+}
+
+.div-card-solucoes2 {
+  position: relative;
+  bottom: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1947a3;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.cards-solucoes {
+  border-radius: 0;
+  border-color: #1947a3;
+  transition: all 0.5s ease-in;
+}
+
+.rect-solucoes {
+  z-index: 999;
+  padding: 40px;
+  position: relative;
+  bottom: 320px;
+  left: 24px;
+  height: 140px;
+  width: 500px;
+  background-color: #ffff;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.62);
+}
+
+/******Funcionabilidades******/
+
+.card ul li {
+  list-style: url(../images/icon-liststyle.png);
+}
+
+.section-func {
+  position: relative;
+  bottom: 13rem;
+}
+
+#card-func1,
+#card-func2,
+#card-func3 {
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+/**************Responsividade****************/
+@media(max-width:992px) {
+  .topo {
+    display: none;
+  }
+}
+
+@media(max-width:768px) {
+  .section-sobre {
+    position: static;
+    margin-bottom: 150px;
+  }
+
+  .section-cards-inicial {
+    display: none;
+  }
+
+}
+
+@media(max-width:590px) {
+  .rect-blue {
+    width: auto;
+    height: 180px;
+    padding: 20px;
+  }
+
+  .rect-solucoes {
+    width: 350px;
+    height: 180px;
+  }
+
+  .div-card-solucoes1,
+  .div-card-solucoes2 {
+    justify-content: center !important;
+  }
+}
