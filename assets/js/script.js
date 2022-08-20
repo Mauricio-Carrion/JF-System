@@ -1,9 +1,9 @@
 window.onscroll = function () { headerFixed(), showBackToTop() };
 
 function headerFixed() {
-  if (document.documentElement.scrollTop > 40) {
+  if (document.documentElement.scrollTop > 30) {
     document.getElementById('header').className = 'fixed-top'
-    document.querySelector('body').style.paddingTop = '8px'
+    document.querySelector('body').style.paddingTop = '20px'
     document.getElementById('header').style.backgroundColor = 'rgba(25,71,163,0.8)'
   }
   else {
